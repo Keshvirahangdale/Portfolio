@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+     <header>
+        <nav>
+            <h1>KESHVI Portfolio</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <label class="switch">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+     </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Hi, I’m Keshvi</h2>
+        <p>Frontend Developer & Learner <br>
+        I build responsive and user-friendly web interfaces.</p>
+        <button>View Projects</button>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I’m <b>Keshvi</b>. A frontend developer focused on learning and building responsive, user-friendly web interfaces. I enjoy turning creative ideas into clean and functional designs while continuously improving my skills.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5 (Semantic Structure)</li>
+            <li>CSS3 (Flexbox, Basic Responsive Design)</li>
+            <li>JavaScript (Basics)</li>
+            <li>Core Java</li>
+            <li>MySQL (Databse Design, Queries, Joins)</li>
+            <li>Git & GitHub (Basics)</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                A responsive personal portfolio website built usimg HTML, CSS, JavaScript to showcase skills and projects.
+            </p>
+        </div>
+        <div class="project">
+            <h3>Thumari</h3>
+            <p>Thumari is a place to listen your favourite music according to your mood or genre.
+            Technologies used : HTML, CSS, JS
+            </p>
+        </div>
+        <div class="project">
+        <h3>Student Database Management (MySQL)</h3>
+        <p>
+            Designed and managed a student database using MySQL with tables, queries,
+            and joins for efficient data handling.
+        </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Enter your name..." >
+            <input type="email" id="email" placeholder="Enter your Email-id...">
+            <button id="contact-btn" type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2026 Keshvi | Learning Web Development</p>
+    </footer>
+        
+    <script src="script.js"></script>
+</body>
+</html>
